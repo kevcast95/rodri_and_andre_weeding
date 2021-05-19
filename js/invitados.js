@@ -560,7 +560,6 @@ let invites = [
 function filterInvites() {
  let codeI = document.getElementById("input_code").value;
  console.log("codeI", codeI);
- console.log("invites:",invites.filter(inv=> inv.CÓDIGO === codeI));
  let invitado = invites.filter(inv=> inv.CÓDIGO === codeI)
- localStorage.setItem('invitado',invitado)
+ localStorage.setItem('invitado',JSON.stringify(invitado))
 }
