@@ -562,5 +562,5 @@ function filterInvites() {
  console.log("codeI", codeI);
  console.log("invites:",invites.filter(inv=> inv.CÓDIGO === codeI));
  let invitado = invites.filter(inv=> inv.CÓDIGO === codeI)
- localStorage.setItem('invitado',invitado[0])
+ localStorage.setItem('invitado',invitado)
 }
