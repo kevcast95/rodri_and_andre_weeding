@@ -122,13 +122,17 @@ body {
  }
 
  .text_icon_container {
-  width: 150px;
+  width: 130px;
   height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 0px;
-  margin-right: 5px;
+  margin-right: 15px;
+ }
+
+ .text_icon_container > img {
+  width: 35px;
  }
 
 }
