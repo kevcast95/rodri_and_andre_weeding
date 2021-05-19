@@ -51,6 +51,9 @@ body {
  .input_code {
   width: 100%;
   height: 40px;
+  color: #FFFF;
+  font-size: 18px;
+  font-weight: 600;
   background-image: linear-gradient(#B38D5D, #FDC891);
   outline: none;
   border: 0;
